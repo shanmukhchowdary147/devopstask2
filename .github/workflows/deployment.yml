@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: deploying
         run: |
-          ls
+          python3 app.py
